@@ -1,0 +1,63 @@
+/* Define o estilo do corpo da página */
+body {
+    color: white; /* Define a cor do texto como branco */
+    background-color: rgb(2, 66, 63); /* Define a cor de fundo como preto */
+    font-family: Arial, Helvetica, sans-serif; /* Define a família de fontes */
+}
+
+/* Define o estilo da lista não ordenada */
+ul {
+    display: flex; /* Ativa o modelo de layout flexível */
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+    list-style-type: none; /* Remove os marcadores de lista */
+    align-items: center; /* Alinha os itens verticalmente */
+    padding: 16px; /* Adiciona preenchimento interno */
+}
+
+/* Define o estilo dos links */
+a {
+    color: white; /* Define a cor do texto como branco */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Define o estilo da imagem dentro do cabeçalho */
+header img {
+    width: 150px; /* Define a largura da imagem */
+    height: 150px; /* Define a altura da imagem */
+    border-radius: 50%; /* Define o raio da borda para criar uma imagem circular */
+    border: 5px solid rgba(221, 221, 230, 0.459); /* Define uma borda com transparência */
+}
+
+/* Define o estilo do contêiner "center" */
+.center {
+    display: flex; /* Ativa o modelo de layout flexível */
+    justify-content: center; /* Alinha os itens no centro horizontalmente */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+}
+
+/* Define o estilo do cabeçalho de nível 1 */
+h1 {
+    color: rgb(119, 119, 255); /* Define a cor do texto */
+    font-family: Arial, Helvetica, sans-serif; /* Define a família de fontes */
+}
+footer img{
+    width: 30px;
+    height: 30px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    margin: 20px;
+    text-align: center;
+}
+footer p{
+    margin-top: 2px;
+}
+.conteiner{
+    padding: 0px 20px;
+}
+nav a:hover{
+    color: blueviolet;
+}
